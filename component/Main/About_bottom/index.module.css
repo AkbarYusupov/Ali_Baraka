@@ -1,0 +1,120 @@
+.about_bottom{
+  display: flex;
+}
+.flag{
+  position: relative;
+  bottom: 190px;
+  right: 200px;
+  width: 50%;
+}
+.info{
+  width: 50%;
+  padding-top: 123px;
+}
+.info h3{
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 35px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #037B35;
+}
+.info span{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color: #1E252B;
+  padding-top: 8px;
+  padding-top: 20px;
+  display: block;
+}
+
+.acordian{
+  padding-top: 27px;
+}
+
+.half {
+  float: left;
+  border: 1px solid #E7E7E7;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.tab {
+  position: relative;
+  margin-bottom: 1px;
+  width: 100%;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #037B35;
+  overflow: hidden;
+  padding: 30px 0 0 40px;
+}
+.tab:last-of-type{
+  padding-bottom: 20px;
+}
+.tab input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+.tab label {
+  position: relative;
+  display: block;
+  padding: 0 0 0 1em;
+  background: transparent;
+  cursor: pointer;
+}
+.tab label span{
+  font-weight: bold;
+  line-height: 19px;
+  width: 245px;
+  display: block;
+  color: #037B35;
+}
+.blue label {
+  background: #2980b9;
+}
+.tab-content {
+  max-height: 0;
+  overflow: hidden;
+  background: #037B35;
+  -webkit-transition: max-height .35s;
+  -o-transition: max-height .35s;
+  transition: max-height .35s;
+}
+.blue .tab-content {
+  background: #3498db;
+}
+.tab-content p {
+  margin: 1em;
+  color: white;
+}
+
+.tab input:checked ~ .tab-content {
+  max-height: 100vh;
+}
+
+.tab label::after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  width: 3em;
+  height: 3em;
+  line-height: 3;
+  text-align: center;
+  -webkit-transition: all .35s;
+  -o-transition: all .35s;
+  transition: all .35s;
+}
+.tab input[type=checkbox] + label::after {
+  content: "+";
+}
+.tab input[type=checkbox]:checked + label::after {
+  transform: rotate(315deg);
+}
+.tab input[type=radio]:checked + label::after {
+  transform: rotateX(180deg);
+}

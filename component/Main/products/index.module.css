@@ -1,0 +1,154 @@
+
+.product_inner{
+  padding-top: 70px;
+}
+.product_inner img{
+  width: 100%;
+}
+.product h2{
+  padding-top: 117px;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 54px;
+  text-transform: uppercase;
+  color: #000000;
+  padding-bottom: 15px;
+}
+.product span:first-of-type{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+  width: 450px;
+  display: block;
+}
+.cards{
+  display: flex;
+  padding-top: 42px;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+.card{
+  width: calc(100% / 2 - 14px);
+  border: 0.8325px solid #D9DCEC;
+  box-sizing: border-box;
+  border-radius: 8.325px;
+  padding: 17px;
+  display: flex;
+  gap: 25px;
+
+ 
+}
+.card_info span:first-child{
+  font-weight: 800;
+  font-size: 20px;
+  width: 195px;
+  line-height: 22px;
+  display: block;
+  text-transform: uppercase;
+  color: #000000;
+}
+.card_info span:last-of-type{
+  font-style: normal;
+  font-weight: 400;
+  display: block;
+  font-size: 11px;
+  line-height: 20px;
+  color: #000000;
+  padding-top: 13px;
+}
+.card:hover{
+  border: 1px solid #037B35;
+}
+
+
+
+.about{
+  max-width: 1920px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.content{
+  display: flex;
+  padding-top: 100px;
+}
+.content_info h2{
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 54px;
+  text-transform: uppercase;
+  color: #000000;
+  width: 580px;
+}
+.content_info span{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+  padding-top: 35px;
+  width: 485px;
+  display: block;
+}
+.content_img{
+  position: relative;
+}
+.content_img img:last-of-type{
+  position: absolute;
+  top: -240px;
+  left: 225px;
+  bottom: 0;
+}
+.content_info button{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #037B35;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding-top: 35px;
+}
+.content_info button:first-of-type{
+  border-radius: 30px;
+  border: 1px solid #037B35;
+  padding: 11px 35px;
+  margin-right: 20px;
+}
+
+.swiper-fon{
+  position: relative;
+  padding-top: 120px;
+}
+.swiper_fon-img img{
+  width: 100%;
+  display: block;
+}
+.mySwiper{
+  position: absolute;
+  top: 65px;
+  width: 1024px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.swiper-slide img{
+  padding: 64px 0;
+}
+.next{
+  position: absolute;
+  right: 35px;
+  top: 60%;
+
+}
+.prev{
+  position: absolute;
+  left: 0;
+}
+
+
+
+
+
+
+
+

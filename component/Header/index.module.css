@@ -1,0 +1,36 @@
+.header{
+  padding: 36px 0;
+}
+.header_inner{
+  display: flex;
+  justify-content: space-between;
+}
+.header_inner a{
+  font-weight: 400;
+  font-size: 15.75px;
+  line-height: 17px;
+  color: #037B35;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.nav ul{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: space-between;
+}
+.phone{
+  display: flex;
+  gap: 12px;
+}
+.phone_img img{
+  width: 100%;
+  display: block;
+}
+.phone_num a{
+  display: block;
+}
